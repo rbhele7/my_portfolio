@@ -1,2 +1,0 @@
-# ParkAI
-PArking assistent model
