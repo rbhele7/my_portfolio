@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: dark; scroll-behavior: smooth; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #080910; color: #f4f4f5; font-family: Inter, sans-serif; overflow-x: hidden; }
+::selection { background: #8b5cf6; color: #fff; }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body::-webkit-scrollbar { width: 7px; }
+body::-webkit-scrollbar-thumb { background: #6d28d9; border-radius: 8px; }
+body::-webkit-scrollbar-track { background: #080910; }
+.gradient-text { background: linear-gradient(100deg, #c4b5fd 0%, #a78bfa 40%, #67e8f9 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.glass { background: rgba(255,255,255,.035); border: 1px solid rgba(255,255,255,.09); backdrop-filter: blur(16px); }
+.grid-bg { background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px); background-size: 44px 44px; }
+.section { padding: 100px 7%; }
+.blob { filter: blur(110px); opacity: .18; pointer-events: none; }
+@media (max-width: 768px) { .section { padding: 75px 6%; } }
+a { color: inherit; text-decoration: none; }
